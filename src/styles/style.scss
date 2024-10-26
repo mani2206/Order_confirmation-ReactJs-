@@ -1,0 +1,123 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
+// Start : Includes
+//======================================//
+
+@import "./includes/variables";
+@import "./breakpoints/breakpoints";
+@import "./includes/header";
+@import "./includes/footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.font_phone {
+  font-size: 11px;
+  .phone_icon {
+    background: #0000ff21;
+    border-radius: 30px;
+    padding: 5px;
+  }
+}
+.font_message {
+  font-size: 11px;
+  .message_icon {
+    background: #0000ff21;
+    border-radius: 30px;
+    padding: 5px;
+  }
+}
+
+.shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  @include media-min-md {
+    width: 62vw;
+  }
+  .order_border {
+    border: 1px solid lightblue;
+    background: #0000ff21;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+
+.payment{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  @include media-min-md {
+    width: 30vw;
+  }
+}
+
+.product,
+.load {
+  margin: 0 10px;
+
+  .accordion-button {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background: #add8e633 !important;
+    @include media-min-md {
+      font-size: 15px;
+    }
+  }
+
+  .change {
+    border: none;
+  }
+  .button_color {
+    background-color: rgb(173 216 230 / 50%);
+    border: none;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
+
+/* Hide the default accordion arrow */
+.accordion-button::after {
+  display: none !important;
+}
+
+/* Add margin to position the input (checkbox) properly */
+.ms-2 {
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.changeproceed {
+  background-color: rgb(173 216 230 / 50%);
+  border: none;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.order {
+  margin: 10px 10px;
+  background: rgba(173, 216, 230, .2) !important;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.load .accordion-button{
+  margin:10px 0 !important;
+}

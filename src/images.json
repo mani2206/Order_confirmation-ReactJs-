@@ -1,0 +1,17 @@
+{
+    "categories": [
+      { "name": "Consumables", "img": "../../images/consumable.png" },
+      { "name": "Electronics", "img": "../../images/consumable.png" },
+      { "name": "Sports Equipments", "img": "../../images/sports.png" },
+      { "name": "Clothes Items", "img": "../../images/clothes.png" },
+      { "name": "Household Items", "img": "../../images/HouseHold.png" },
+      { "name": "Others", "img": "../../images/others.jpg" }
+    ],
+    "load": [
+      { "name": "CarbonBox", "img": "../../images/carbon.jpg" },
+      { "name": "WoodenBox", "img": "../../images/wooden.jpg" },
+      { "name": "Plastic", "img": "../../images/plastic.jpg" },
+      { "name": "Others", "img": "../../images/others.jpg" }
+    ]
+  }
+  
